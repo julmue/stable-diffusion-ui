@@ -273,7 +273,7 @@ def do_mk_img(req: Request):
     opt_init_img = req.init_image
     opt_use_face_correction = req.use_face_correction
     opt_use_upscale = req.use_upscale
-    opt_show_only_filtered = req.show_only_filtered_image
+    opt_show_only_filtered = False
     opt_format = 'png'
     opt_sampler_name = req.sampler
 
